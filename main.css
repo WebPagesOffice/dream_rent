@@ -1,0 +1,207 @@
+body {
+    background-color:gray;
+}
+
+
+
+
+#M {
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 3.5px 3.5px rgb(82, 214, 67);
+    font-size: 100px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+
+#AmidaHead{
+    height: 220px;
+    border-radius: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0px 0px 0px 15px;
+}
+
+
+
+
+
+
+#Office {
+    height: 250px;
+    width: 350px;
+    border-radius: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0px 0px 0px 15px;
+}
+
+
+#Shop {
+    height: 250px;
+    width: 370px;
+    border-radius: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0px 15px 0px 0px;
+}
+
+
+#Flower {
+    width: 350px;
+    height: 250px;
+    border-radius: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0px 15px 0px 0px;
+}
+
+.Flet {
+    width: 350px;
+    height: 250px;
+    border-radius: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 50px 0px 0px 15px;
+}
+
+#table1 {
+    width: 100%;
+    border-spacing: 0;
+}
+
+
+#table2 {
+    width: 100%;
+    border-spacing: 0;
+}
+
+
+
+.left {
+    text-align: left;
+    padding: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+    size: 20px;
+}
+
+.right {
+    text-align: right;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    size: 20px;
+}
+
+.center {
+    size: 20px;
+}
+
+.Flet-style {
+    text-align: center;
+}
+
+
+.HR {
+    height: 2.5px;
+    width: 500px;
+    background: black;
+
+}
+
+.line {
+    height: 2.5px;
+    width: 100%;
+    background-color: black;
+} 
+
+
+a {
+    color:black;
+}
+
+
+
+button {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 980px) {
+    #pagewrap {
+       width: 95%;
+    }
+    #content {
+       width: 60%;
+       padding: 3% 4%;
+    }
+    #sidebar {
+       width: 30%;
+    }
+    #sidebar .widget {
+       padding: 8% 7%;
+       margin-bottom: 10px;
+    }
+ }
+
+@media screen and (max-width: 480px) {
+    html {
+       -webkit-text-size-adjust: none;
+    }
+    #main-nav a {
+       font-size: 90%;
+       padding: 10px 8px;
+    }
+ }
+
+
+ @media screen and (max-width: 650px) {
+    #header {
+       height: auto;
+    }
+    #searchform {
+       position: absolute;
+       top: 5px;
+       right: 0;
+    }
+    #main-nav {
+       position: static;
+    }
+    #site-logo {
+       margin: 15px 100px 5px 0;
+       position: static;
+    }
+    #site-description {
+       margin: 0 0 15px;
+       position: static;
+    }
+    #content {
+       width: auto;
+       float: none;
+       margin: 20px 0;
+    }
+    #sidebar {
+       width: 100%;
+       float: none;
+       margin: 0;
+    }
+ }
+
+
+ img {
+    max-width: 85%;
+    height: auto;
+    width: auto\9; /* ie8 */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
